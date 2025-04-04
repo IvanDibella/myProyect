@@ -219,10 +219,10 @@ footer {
     display: flex;
     background-color: yellowgreen;
     border: 2px solid black;
-    margin: 10px;
+    margin: 15px;
     padding: 15PX;
     width: 99%;
-    height: 60vw;
+    height: 65vw;
     border-radius: 15px;
     /* border-radius: 20px; */
 
@@ -304,6 +304,12 @@ footer {
 }
 
 table,tr,td,th{
+    margin: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
