@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 header {
@@ -39,7 +40,7 @@ nav>a {
     font-size: 36px;
    }
 nav:hover{
-    background-color: green;
+    background-color: red;
 }
 
 nav>a:hover {
@@ -57,8 +58,11 @@ nav>a:hover {
 }
 
 h2 {
-    text-align: center;
-    text-decoration: underline;
+        text-align: center;
+        text-decoration: underline;
+        color: red;
+        font-size: 50px;
+    
 }
 
 h3 {
@@ -187,6 +191,7 @@ img {
     position: relative;
     top: 60px;
     font-size: 30px;
+    color: white;
 }
 
 footer {
@@ -199,6 +204,106 @@ footer {
     border: 2px solid black;
     min-height: 1vh;
     position: relative;
-    bottom: 130px;
+    bottom: 10px;
 }
 
+.body{
+    background-image: url(../imagenes/backgroundmain.jpg);
+}
+
+.imagear{
+    border-radius: 20px;
+}
+
+#container1{
+    display: flex;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 15PX;
+    width: 99%;
+    height: 60vw;
+    border-radius: 15px;
+    /* border-radius: 20px; */
+
+}
+ .contpr1{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    width: 15vw;
+    margin: 10px;
+    height: 20vw;
+    border-radius: 10px;
+   }
+
+ .contpr2{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    margin: 10px;
+    width: 85vw;
+    border-radius: 10px;
+ }
+
+ .ppr{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
+
+ ul{
+    list-style-position: inside;
+    margin: 15px 10px 10px 15px;
+ }
+
+ .box1pr{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 15px 15px 20px;
+    padding: 15px;
+ }
+
+ .box2pr{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 15px 15px 20px;
+    padding: 15px;
+ }
+
+ .artpr{
+    background-color: black;
+    color: yellowgreen;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid white;
+    padding: 10px;
+ }
+
+ .artpr>a {
+    border: groove white;
+   border-radius: 5px;
+}
+
+.artpr>a:hover {
+    background-color: chartreuse;
+    color: black;
+}
+
+.ancorartpr{
+    color: yellowgreen;
+}
+
+.price{
+    margin-bottom: 40px;
+}
+
+#titleoft{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
