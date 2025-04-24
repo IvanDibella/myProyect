@@ -5,31 +5,52 @@
     /* border: 1px solid black; */
 }
 
+.banner{
+   display: flex;
+}
+
+.banner>img{
+    width: 60px;
+    height: 50px;
+}
+
+.banner>div{
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
 header {
     background-color: yellowgreen;
     padding: 10px;
     margin: 10px;
     border-radius: 30px;
     border: 2px solid black;
-    min-height: 10vh;
+    min-height: 20vh;
 }
 
 main {
-    min-height: 89vh;
+    min-height: 70vh;
 }
 
-h1 {
+/* h1 {
     position: absolute;
     left: 760px;
     top: 40px;
     font-size: 50px;
-}
+} */
 
 nav {
     background-color: black;
     text-align: center;
     border-radius: 30px;
-    
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -86,7 +107,7 @@ h4 {
 }
 .articles>a {
     border: groove white;
-   border-radius: 5px;
+    border-radius: 5px;
 }
 
 .articles>a:hover {
@@ -191,18 +212,18 @@ img {
     position: relative;
     top: 60px;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 footer {
     background-color: yellowgreen;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 5px;
     border-radius: 30px;
-    margin: 10px;
+    margin: 15px;
     border: 2px solid black;
-    min-height: 1vh;
+    min-height: 10vh;
     position: relative;
     bottom: 10px;
 }
@@ -211,36 +232,46 @@ footer {
     background-image: url(../imagenes/backgroundmain.jpg);
 }
 
+.body2{
+    background-color: black;
+}
 .imagear{
     border-radius: 20px;
 }
 
 #container1{
     display: flex;
-    background-color: yellowgreen;
+    background-image: url(../imagenes/backgroundmain.jpg);
     border: 2px solid black;
     margin: 15px;
     padding: 15PX;
     width: 99%;
     height: 65vw;
     border-radius: 15px;
+    background-image: url(../imagenes/backgroundmain.jpg);
     /* border-radius: 20px; */
 
 }
  .contpr1{
-    background-color: yellowgreen;
-    border: 2px solid black;
-    width: 15vw;
+    display: flex;
+    flex-wrap: ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    border: 2px solid white;
+    width: 15%;
     margin: 10px;
     height: 20vw;
     border-radius: 10px;
+    color: yellowgreen;
+    font-weight: bold;
    }
 
  .contpr2{
     background-color: yellowgreen;
     border: 2px solid black;
     margin: 10px;
-    width: 85vw;
+    width: 85%;
     border-radius: 10px;
  }
 
@@ -309,7 +340,10 @@ table,tr,td,th{
     padding-right: 150px;
     padding-top: 4px;
     padding-bottom: 4px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
     text-align: center;
+    color: yellowgreen;
+    background-color: black;
+    font-weight: bold;
 }
